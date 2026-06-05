@@ -55,4 +55,4 @@ SELECT
 FROM hosts h
 WHERE
     h.status = 0
-    AND h.host = 'NOME_HOST'
+    AND h.host = 'NOME-DO-HOST'
