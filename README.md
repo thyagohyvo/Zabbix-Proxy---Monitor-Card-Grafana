@@ -1,6 +1,7 @@
 # 🖥️ Zabbix Proxy Monitor Card — Neumorphism Dark
 
 > Card de monitoramento visual para painéis **Zabbix + Grafana (HTML Graphics)**, com design Neumorphism Dark, anéis de progresso SVG, alertas por cor e suporte a logos customizadas por cliente.
+https://grafana.com/grafana/plugins/gapit-htmlgraphics-panel/
 
 ![Preview](https://img.shields.io/badge/Zabbix-6.x%20%7C%207.x-red?style=flat-square&logo=zabbix)
 ![MariaDB](https://img.shields.io/badge/MariaDB-compatível-blue?style=flat-square&logo=mariadb)
