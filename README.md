@@ -1,4 +1,4 @@
-# 🖥️ Zabbix Proxy Monitor Card — Neumorphism Dark
+# 🖥️ Zabbix Proxy Monitor Card - Neumorphism Dark
 
 > Card de monitoramento visual para painéis **Zabbix + Grafana (HTML Graphics)**, com design Neumorphism Dark, anéis de progresso SVG, alertas por cor e suporte a logos customizadas por cliente.
 https://grafana.com/grafana/plugins/gapit-htmlgraphics-panel/
@@ -186,7 +186,7 @@ Duplique o painel no Grafana e altere apenas o `AND h.host = '...'` na query de 
 | `Error 1064 (42000)` | Duas queries no mesmo campo | Cole apenas uma query por painel |
 | `Error 1054: Unknown column 'i.lastvalue'` | Zabbix 6+ removeu essa coluna | Use a query de `querymysql.txt` que lê de `history` diretamente |
 | `Error executing onRender: Unexpected token ')'` | Declaração `function onRender(){}` colada no campo | Cole apenas o corpo, sem a declaração da função |
-| Card exibe `—` em todos os campos | `onRender` não lê os dados da query | Confirme que as colunas têm os aliases exatos listados acima |
+| Card exibe `-` em todos os campos | `onRender` não lê os dados da query | Confirme que as colunas têm os aliases exatos listados acima |
 | Logo do cliente não aparece | URL bloqueada pela rede | Hospede a imagem internamente ou use base64 |
 
 ---
